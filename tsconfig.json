@@ -5,7 +5,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "sourceMap": true,
     "skipDefaultLibCheck": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
@@ -26,5 +26,5 @@
     "isolatedModules": true
   },
   "exclude": ["node_modules"],
-  "include": ["src", "next-env.d.ts", "*.ts"]
+  "include": ["src", "modules", "api", "next-env.d.ts", "*.ts"]
 }

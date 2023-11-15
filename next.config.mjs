@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['@lobehub/ui'],
+  typescript: {
+    tsconfigPath: './tsconfig.next.json',
+  },
   async headers() {
     return [
       {

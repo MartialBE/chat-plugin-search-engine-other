@@ -1,10 +1,3 @@
-import { searchEngines } from '@/services/search';
-
-export interface Settings {
-  SEARCH_ENGINE_TYPE: keyof typeof searchEngines;
-  SECRET_KEY: string;
-}
-
 export interface SearchResults {
   noResults: boolean;
   /** The web results of the search. */
