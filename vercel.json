@@ -1,5 +1,4 @@
 {
   "buildCommand": "bun run modules:build && bun run build",
-  "installCommand": "bun install",
-  "outputDirectory": "public"
+  "installCommand": "bun install"
 }
