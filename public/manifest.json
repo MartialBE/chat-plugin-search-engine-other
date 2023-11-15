@@ -2,7 +2,7 @@
   "api": [
     {
       "name": "query",
-      "url": "http://chat-plugin-search-other.vercel.app/api/v1/search",
+      "url": "https://chat-plugin-search-other.vercel.app/api/v1/search",
       "description": "a search engine. useful for when you need to answer questions about current events. input should be a search query.",
       "parameters": {
         "properties": {
@@ -34,7 +34,7 @@
     }
   },
   "ui": {
-    "url": "http://chat-plugin-search-other.vercel.app/dist/index.js",
+    "url": "https://chat-plugin-search-other.vercel.app/dist/index.js",
     "mode": "module"
   },
   "version": "1"
